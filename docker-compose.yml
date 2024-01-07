@@ -50,7 +50,7 @@ services:
 
   angular_frontend:
     image: frontendapp
-    container_name: frontangularmsdocker
+    container_name: front
     ports:
       - 4200:4200
     networks:

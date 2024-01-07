@@ -41,7 +41,7 @@ RUN echo "Starting WildFly server" && \
       rm -rf $JBOSS_HOME/standalone/configuration/standalone_xml_history/ $JBOSS_HOME/standalone/log/* && \
       rm -f /tmp/*.jar
 # Copia el archivo WAR de tu aplicación al directorio de despliegue de WildFly
-ADD target/microservicios-rs.war /opt/jboss/wildfly/standalone/deployments/
+ADD target/MicroserviciosRest.war /opt/jboss/wildfly/standalone/deployments/
 
 # Expone el puerto HTTP predeterminado de WildFly
 EXPOSE 8080
