@@ -38,11 +38,11 @@ services:
   admin:
     image: dpage/pgadmin4
     environment:
-      PGADMIN_DEFAULT_EMAIL: andresalvaradoc.2002@gmail.com
-      PGADMIN_DEFAULT_PASSWORD: admin
+      PGADMIN_DEFAULT_EMAIL: info@jasoft.ec
+      PGADMIN_DEFAULT_PASSWORD: clave
       TZ:  America/Guayaquil
     ports:
-      - 8181:80
+      - 5050:80
     depends_on:
       - srvdb
     networks:
@@ -50,7 +50,7 @@ services:
 
   angular_frontend:
     image: frontendapp
-    container_name: front
+    container_name: angular_frontend
     ports:
       - 4200:4200
     networks:
