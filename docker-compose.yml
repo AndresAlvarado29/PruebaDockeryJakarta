@@ -19,7 +19,7 @@ services:
 
 
   srvwildfly:
-    image: backendapp
+    image: andruco29/backendms
     container_name: srvwildfly
     hostname: srvwildfly
     environment:

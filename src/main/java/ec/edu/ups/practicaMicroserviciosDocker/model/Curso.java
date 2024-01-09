@@ -13,7 +13,7 @@ public class Curso {
     private int id;
     private String nombre;
     private int numeroDeHoras;
-    private Docente docente;
+
 
     public int getId() {
         return id;
@@ -39,11 +39,4 @@ public class Curso {
         this.numeroDeHoras = numeroDeHoras;
     }
 
-    public Docente getDocente() {
-        return docente;
-    }
-
-    public void setDocente(Docente docente) {
-        this.docente = docente;
-    }
 }
