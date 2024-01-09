@@ -49,7 +49,7 @@ services:
       - datalogger_net
 
   angular_frontend:
-    image: frontendapp
+    image: andruco29/frontendapp
     container_name: angular_frontend
     ports:
       - 4200:4200
